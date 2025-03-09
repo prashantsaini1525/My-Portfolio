@@ -175,7 +175,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Aligarh College of Engineering and Technology (ACET)",
-      logo: require("./assets/images/ACETLOGO.jpg"),
+      logo: require("./assets/images/ACETLOGO.png"),
       subHeader: "Bachelor of Technology in Information Technology",
       duration: "Nov 2020 - July 2024",
       desc: "Graduated with a CGPA of 7.8. ACET is affiliated with Dr. A.P.J. Abdul Kalam Technical University (AKTU).",
