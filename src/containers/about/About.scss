@@ -1,0 +1,58 @@
+@import "../../_globalColor";
+
+.about-main-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.about-image-div {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.about-text-div {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  /* Ensure content doesn't extend past container */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.about-heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-text-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  /* Break long words to prevent overflow */
+  overflow-wrap: break-word;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .about-main-div {
+    flex-direction: column;
+  }
+}
+
+/* Additional dark mode styles as needed */
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #fff;
+}

@@ -1,0 +1,119 @@
+@import "../../_globalColor";
+
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.greet-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.greeting-main {
+  display: flex;
+}
+
+.subTitle {
+  color: $subTitle !important;
+}
+
+.greeting-main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+}
+
+/* Responsive font sizing with conditional colors */
+/* Default (Light Mode): Black text */
+.greeting-text {
+  font-size: clamp(30px, 6vw, 70px);
+  line-height: 1.1;
+  color: black !important;
+}
+
+/* Dark Mode Override: White text */
+.dark-mode .greeting-text {
+  color: white !important;
+}
+
+.greeting-text-p {
+  font-size: clamp(16px, 3vw, 30px);
+  line-height: 40px;
+  color: black !important;
+}
+
+/* Dark Mode Override for Paragraph */
+.dark-mode .greeting-text-p {
+  color: white !important;
+}
+
+.greeting-image-div > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-10deg); }
+  20% { transform: rotate(12deg); }
+  30% { transform: rotate(-10deg); }
+  40% { transform: rotate(9deg); }
+  50% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* Media Query for devices up to 1380px */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: clamp(30px, 5vw, 50px);
+  }
+  .greeting-text-p {
+    font-size: clamp(16px, 2.5vw, 20px);
+  }
+}
+
+/* Media Query for devices up to 768px */
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: clamp(14px, 5vw, 16px);
+    line-height: normal;
+    text-align: center;
+  }
+  .greeting-main {
+    display: block;
+  }
+  .greeting-image-div {
+    height: 256px;
+  }
+}
+
+/* Media Query for devices up to 320px */
+@media (max-width: 320px) {
+  .main {
+    width: auto;
+  }
+}

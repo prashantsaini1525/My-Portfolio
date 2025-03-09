@@ -1,0 +1,59 @@
+@import "../../_globalColor";
+
+/* Global box sizing and prevent horizontal overflow */
+.main {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.skills-main-div {
+  width: 100%;
+  max-width: 1200px; // Constrain overall width
+  padding: 60px 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.skills-text-div {
+  width: 100%;
+  max-width: 800px; // Constrain text wrapper so it doesn't overflow
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.skills-heading {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.subTitle {
+  color: $subTitle;
+}
+
+.skills-text-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Removed the Tech Stack section styles */
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .skills-heading {
+    font-size: 36px;
+  }
+  .skills-text-subtitle {
+    font-size: 1.1rem;
+  }
+  .skills-text-div {
+    padding: 0 10px;
+  }
+}

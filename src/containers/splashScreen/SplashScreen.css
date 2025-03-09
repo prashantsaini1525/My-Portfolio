@@ -1,0 +1,37 @@
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.splash-animation-container {
+  height: 50vh;
+}
+
+.splash-title-container {
+  font-size: 2.5rem;
+  text-decoration: none;
+  /* Prevents the text from breaking in half */
+  white-space: nowrap;
+}
+
+.splash-title {
+  font-family: "Agustina Regular", cursive;
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 20px;
+}
+
+/* Responsive adjustments for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  .splash-title-container {
+    font-size: 1.8rem;
+  }
+  .splash-title {
+    font-size: 1.8rem;
+    padding: 0 10px;
+  }
+}
