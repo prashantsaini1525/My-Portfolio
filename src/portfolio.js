@@ -319,7 +319,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/drive/folders/1GWZL8e9M9891-BfpVH9hiER9sJ19eADm?usp=sharing"
-        }
+        },
       ]
     },
     {
@@ -332,7 +332,7 @@ const achievementSection = {
         {
           name: "View All Certificates",
           url: "https://drive.google.com/drive/folders/1Yko2etEgpSiQnkOZBOaGYOBvCdJ1tIk0?usp=sharing" // Replace with your actual Google Drive link
-        }
+        },
       ]
     },
     {
@@ -345,7 +345,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/drive/folders/1mtV21KA-K9Gg4FI2mJjYjE-27o_LWBhn?usp=sharing"
-        }
+        },
       ]
     },
     {
@@ -358,7 +358,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/drive/folders/1Y252E-hI-7hvBEJ6TNOwvFaMIPhrud_0?usp=sharing"
-        }
+        },
       ]
     },
     {
@@ -370,7 +370,7 @@ const achievementSection = {
         {
           name: "View Badge",
           url: "https://g.dev/prashant_saini"
-        }
+        },
       ]
     },
     {
@@ -382,7 +382,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/drive/folders/1-nqGZBUB0Ulule3Q-tmJBZELo5iklmFz?usp=sharing" // Replace with your actual certificate URL if available
-        }
+        },
       ]
     },
     {
@@ -394,7 +394,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/drive/folders/1u5iCD8uuP4cWd4L-BtRtkSoaqa9N0jJE?usp=sharing" // Replace with your actual certificate URL
-        }
+        },
       ]
     }
   ],
