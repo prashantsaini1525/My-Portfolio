@@ -259,7 +259,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/ITech.jpg"),
+      image: require("./assets/images/ITech.png"),
       projectName: "I Tech World",
       projectDesc:
         "An ongoing e-learning platform designed for students from high school to engineering offering interactive courses and practical learning experiences.",
