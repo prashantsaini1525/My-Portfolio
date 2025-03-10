@@ -139,6 +139,25 @@ const skillsSection = {
   display: true
 };
 
+// Education Section
+
+const educationInfo = {
+  schools: [
+    {
+      schoolName: "Aligarh College of Engineering and Technology (ACET)",
+      logo: require("./assets/images/ACETLOGO.png"),
+      subHeader: "Bachelor of Technology in Information Technology",
+      duration: "Nov 2020 - July 2024",
+      desc: "Graduated with a CGPA of 7.8. ACET is affiliated with Dr. A.P.J. Abdul Kalam Technical University (AKTU).",
+      descBullets: [
+        "Led the coding club, organizing technical workshops and hackathons.",
+        "Coordinated the university's annual tech fest, fostering innovation and collaboration."
+      ]
+    }
+  ],
+  display: true,
+};
+
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -160,29 +179,10 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-// Education Section
-
-const educationInfo = {
-  schools: [
-    {
-      schoolName: "Aligarh College of Engineering and Technology (ACET)",
-      logo: require("./assets/images/ACETLOGO.png"),
-      subHeader: "Bachelor of Technology in Information Technology",
-      duration: "Nov 2020 - July 2024",
-      desc: "Graduated with a CGPA of 7.8. ACET is affiliated with Dr. A.P.J. Abdul Kalam Technical University (AKTU).",
-      descBullets: [
-        "Led the coding club, organizing technical workshops and hackathons.",
-        "Coordinated the university's annual tech fest, fostering innovation and collaboration."
-      ]
-    }
-  ],
-  display: true,
-};
-
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "",
@@ -216,8 +216,6 @@ const bigProjects = {
       projectName: "Learniverse",
       projectDesc:
         "Learniverse is an evolving e-learning platform designed for students across different levels. Currently, it features a main page with Home, About, and Contact Us sections.",
-      subtitle:
-        "I'm actively developing Learniverse with plans to add many more features like courses, live classes, and interactive modules in the near future.",
       footerLink: [
         {
           name: "View Project",
@@ -272,11 +270,10 @@ const bigProjects = {
           url: "https://github.com/prashantsaini1525/Heart-Disease-Predicition" // Replace with your actual project link
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Achievement Section
 // Include certificates, talks etc
@@ -310,7 +307,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/drive/folders/1GWZL8e9M9891-BfpVH9hiER9sJ19eADm?usp=sharing"
-        },
+        }
       ]
     },
     {
@@ -323,7 +320,7 @@ const achievementSection = {
         {
           name: "View All Certificates",
           url: "https://drive.google.com/drive/folders/1Yko2etEgpSiQnkOZBOaGYOBvCdJ1tIk0?usp=sharing" // Replace with your actual Google Drive link
-        },
+        }
       ]
     },
     {
@@ -336,7 +333,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/drive/folders/1mtV21KA-K9Gg4FI2mJjYjE-27o_LWBhn?usp=sharing"
-        },
+        }
       ]
     },
     {
@@ -349,7 +346,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/drive/folders/1Y252E-hI-7hvBEJ6TNOwvFaMIPhrud_0?usp=sharing"
-        },
+        }
       ]
     },
     {
@@ -361,7 +358,7 @@ const achievementSection = {
         {
           name: "View Badge",
           url: "https://g.dev/prashant_saini"
-        },
+        }
       ]
     },
     {
@@ -373,7 +370,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/drive/folders/1-nqGZBUB0Ulule3Q-tmJBZELo5iklmFz?usp=sharing" // Replace with your actual certificate URL if available
-        },
+        }
       ]
     },
     {
@@ -385,7 +382,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/drive/folders/1u5iCD8uuP4cWd4L-BtRtkSoaqa9N0jJE?usp=sharing" // Replace with your actual certificate URL
-        },
+        }
       ]
     }
   ],
@@ -405,9 +402,9 @@ const blogSection = {
       title: "",
       description:
         ""
-    },
+    }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -428,7 +425,7 @@ const talkSection = {
         ""
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -459,7 +456,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
