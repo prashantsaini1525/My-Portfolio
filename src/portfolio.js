@@ -62,11 +62,9 @@ const aboutSection = {
 
 const skillsSection = {
   title: "Tech Stack",
-  subTitle:
-    "Full-Stack Developer Showcasing a Modern Tech Stack with Custom Icons & Innovative Solutions.",
+  subTitle: "Full-Stack Developer Showcasing a Modern Tech Stack with Custom Icons & Innovative Solutions.",
   // Software skills grouped by category
-  softwareSkills: {
-    webDevelopment: [
+  softwareSkills: [
       // Front-end Technologies
       {
         skillName: "html-5",
@@ -92,7 +90,6 @@ const skillsSection = {
         skillName: "tailwind",
         svgIconPath: "https://img.icons8.com/color/96/000000/tailwindcss.png"
       },
-      // Removed EJS as it's not part of your skillset
       // Back-end / Server-side Technologies
       {
         skillName: "nodejs",
@@ -109,18 +106,13 @@ const skillsSection = {
       {
         skillName: "Mongo DB",
         svgIconPath: "https://img.icons8.com/color/96/000000/mongodb.png"
-      }
-    ],
-    coding: [
+      },
       // Programming Languages (only including Java now)
       {
         skillName: "Java",
         svgIconPath:
           "https://img.icons8.com/color/96/000000/java-coffee-cup-logo.png"
-      }
-      // Removed C language and C++ language
-    ],
-    tools: [
+      },
       // Development Tools and Utilities
       {
         skillName: "git",
@@ -143,8 +135,7 @@ const skillsSection = {
         skillName: "notion",
         svgIconPath: "https://img.icons8.com/color/96/000000/notion.png"
       }
-    ]
-  },
+    ],
   display: true
 };
 

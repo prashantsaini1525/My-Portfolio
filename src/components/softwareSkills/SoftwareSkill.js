@@ -3,14 +3,10 @@ import "./SoftwareSkill.scss";
 import { skillsSection } from "../../portfolio";
 
 export default function SoftwareSkill() {
-  // Flatten all skills into a single array
-  const allSkills = [
-    ...skillsSection.softwareSkills.webDevelopment,
-    ...skillsSection.softwareSkills.coding,
-    ...skillsSection.softwareSkills.tools,
-  ];
+  // Use the unified array from skillsSection
+  const allSkills = skillsSection.softwareSkills;
 
-  // Split the flattened array into two rows
+  // Split the array into two rows
   const half = Math.ceil(allSkills.length / 2);
   const firstRow = allSkills.slice(0, half);
   const secondRow = allSkills.slice(half);
