@@ -75,13 +75,3 @@
 span.certificate-tag:hover {
   background: $buttonHover;
 }
-.achievement-main-div {
-  background-color: rgba(9, 243, 79, 0.1); // light red for debugging
-}
-.certificate-card {
-  background-color: rgba(20, 223, 50, 0.1); // light green for debugging
-}
-.dark-mode.certificate-card {
-  background-color: #444 !important; /* dark gray */
-  color: #fff !important;
-}
