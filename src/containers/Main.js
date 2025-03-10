@@ -4,14 +4,14 @@ import Greeting from "./greeting/Greeting";
 import About from "./about/About";
 import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
-import WorkExperience from "./workExperience/WorkExperience";
+// import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects"; //open source project
 import StartupProject from "./StartupProjects/StartupProject"; //projects
 import Achievement from "./achievement/Achievement";
-import Blogs from "./blogs/Blogs";
-import Footer from "../components/footer/Footer";
-import Talks from "./talks/Talks";
-import Podcast from "./podcast/Podcast";
+// import Blogs from "./blogs/Blogs";
+// import Footer from "../components/footer/Footer";
+// import Talks from "./talks/Talks";
+// import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
