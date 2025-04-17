@@ -212,6 +212,18 @@ const bigProjects = {
   subtitle: "A showcase of my personal and collaborative projects that blend creativity with technology.",
   projects: [
     {
+      image: require("./assets/images/RealTime Tracker.png"), 
+      projectName: "Real‑Time Tracker",
+      projectDesc:
+        "A live‑location monitoring web app that lets users track moving assets on an interactive map in real time. Built with Node.js, Express and Socket.IO for bidirectional updates, and Mapbox GL JS for sleek, customizable map visualizations.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/prashantsaini1525/realtime-tracker"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/Learniverse.png"),
       projectName: "Learniverse",
       projectDesc:
