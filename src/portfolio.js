@@ -38,6 +38,7 @@ const socialMediaLinks = {
   gmail: "Prashant.saini.3150@gmail.com",
   twitter: "https://x.com/Prashan58889893",
   facebook: "https://www.facebook.com/prashant.saini.31508076/",
+  leetcode: "https://leetcode.com/u/prashantsainii/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
