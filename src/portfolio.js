@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/prashantsaini1525/",
   linkedin: "https://www.linkedin.com/in/prashantssaini/",
   gmail: "Prashant.saini.3150@gmail.com",
-  twitter: "https://x.com/Prashan58889893",
+  twitter: "https://x.com/prashant2_saini",
   facebook: "https://www.facebook.com/prashant.saini.31508076/",
   leetcode: "https://leetcode.com/u/prashantsainii/",
   // Instagram, Twitter and Kaggle are also supported in the links!
